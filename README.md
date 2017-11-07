@@ -1,4 +1,4 @@
-# fTimer 0.1.0 - plugin for Jquery.
+# fTimer 0.1.0 - plugin of counter for jQuery.
 
 ### What is this:
 
