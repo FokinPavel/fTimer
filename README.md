@@ -1,16 +1,20 @@
 # fTimer 0.1.0 - plugin for Jquery.
 
-How to use it:
+### How to use it:
 
-$(object).Timer( { count: <number>, callback: <function> } )
+```javascript
+$(object).Timer( { count: <number>, callback: <function> } );
+```
   
-Example:
+### Example:
 
-$('.counter').ready(function () {
-  $('.advantages__item-name').fTimer({
+```javascript
+$( document ).ready(function () {
+  $('.counter').fTimer({
     count: 59,
     callback: function () {
       console.log('done');
     },
   });
-})
+});
+```
