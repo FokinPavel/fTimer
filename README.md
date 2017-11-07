@@ -1,9 +1,13 @@
 # fTimer 0.1.0 - plugin for Jquery.
 
+### What is this:
+
+Display counter in DOM element.
+
 ### How to use it:
 
 ```javascript
-$(object).Timer( { count: <number>, callback: <function> } );
+$(object).fTimer( { count: <number>, callback: <function> } );
 ```
   
 ### Example:
